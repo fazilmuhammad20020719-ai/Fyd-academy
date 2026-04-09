@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import axios from 'axios'
 
+// In production: set VITE_API_URL=https://your-backend.vercel.app in Vercel env vars
+const API_URL = import.meta.env.VITE_API_URL || ''
+
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
   const [status, setStatus] = useState(null)
@@ -12,7 +15,7 @@ export default function Contact() {
     e.preventDefault()
     setLoading(true)
     try {
-      await axios.post('/api/contact', form)
+      await axios.post(`${API_URL}/api/contact`, form)
       setStatus('success')
       setForm({ name: '', email: '', message: '' })
     } catch {
