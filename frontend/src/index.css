@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@400;600;700;800;900&family=Outfit:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
 /* ========================
@@ -9,12 +9,12 @@
   --color-primary-dark: #4f46e5;
   --color-secondary: #f59e0b;
   --color-accent: #10b981;
-  --color-bg: #0f0f1a;
-  --color-surface: #1a1a2e;
-  --color-surface-2: #16213e;
-  --color-border: rgba(108, 99, 255, 0.2);
-  --color-text: #e2e8f0;
-  --color-muted: #94a3b8;
+  --color-bg: #ffffff;
+  --color-surface: #f8f9fa;
+  --color-surface-2: #f1f5f9;
+  --color-border: rgba(0, 0, 0, 0.1);
+  --color-text: #0f0f1a;
+  --color-muted: #64748b;
   --radius-lg: 1rem;
   --radius-xl: 1.5rem;
   --shadow-glow: 0 0 30px rgba(108, 99, 255, 0.3);
@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text);
   line-height: 1.6;
@@ -42,7 +42,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   line-height: 1.2;
 }
