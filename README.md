@@ -1,2 +1,2 @@
 # Fyd-academy
-The official website and storefront for Fyd Academy, an online learning platform offering advanced courses in cinematic video editing, VFX, color grading, and motion graphics.
+Frontend repository for the Fyd Academy landing page, designed to showcase course curriculums and integrate seamlessly with Whop for student enrollment.
